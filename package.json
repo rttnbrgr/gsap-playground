@@ -1,17 +1,14 @@
 {
   "name": "gsap-playground",
-  "version": "0.0.1",
-  "description": "learning gsap stuff",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "parcel src/*"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "rttn brgr",
-  "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.3"
-  },
-  "dependencies": {
-    "gsap": "^3.12.4"
+    "vite": "^5.0.8"
   }
 }
