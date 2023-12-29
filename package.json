@@ -4,7 +4,7 @@
   "description": "learning gsap stuff",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/*"
   },
   "author": "rttn brgr",
   "license": "ISC",
